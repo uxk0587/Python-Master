@@ -200,6 +200,7 @@ t = (1, 2, 'Jack', True)
 print(t[1])
 print(type(t))
 
+# 遍历元组中的值
 for member in t:
     print(member)
 
@@ -264,6 +265,7 @@ print(scores['Jack'])
 
 for key in scores:
     print("{}: ".format(key), scores[key])
+    # print(f"")打印可以执行的表达式，会对表达式先进行运算然后打印
     print(f"{key} is : {scores[key]}")
     print(key)
 scores.update(newton=22, tomas=32)
