@@ -12,7 +12,7 @@ from datetime import datetime
 def server_main():
     # 创建套接字对象并指定使用哪种传输服务
     # family=AF_INET IPv4地址
-    # family=AF_INET IPv6地址
+    # family=AF_INET6 IPv6地址
     # type=SOCK_STREAM TCP套接字
     # type=SOCK_DGRAM UDP套接字
     # type=SOCK_RAM 原始套接字
@@ -48,6 +48,6 @@ def client_main():
     client.close()
 
 
-
+    
 if __name__ == '__main__':
     client_main()
