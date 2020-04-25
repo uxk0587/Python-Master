@@ -55,9 +55,22 @@ def find_all_number():
     # 通过迭代器取出匹配对象并获得匹配内容
     # （实际开发中也可以用正则表达式对象的方法pattern.finditer替代re.finditer
     for temp in re.finditer(pattern, sentence):
-        # temp是一个匹配对象， 通过匹配对象.group()来得到整个该匹配对象中匹配的字符串
+        # temp是一个匹配对象， 通过匹配对象temp.group()函数来得到整个该匹配对象中匹配的字符串
         print(temp.group())
+
+
+# 例子3：替换字符串中的不良内容
+def replace_main():
+    sentence = '你丫是傻叉吗? 我操你大爷的. Fuck you.'
+    # pattern = re.compile("[操肏艹]|fuck|shit|傻[比屄逼叉缺吊屌]|煞笔|fuck you") 注意编译后不在re.xxx()函数中不用用flags参数，会报错
+    # re.sub()用于替换字符串中的匹配项，第一个参数是正则表达式匹配模式
+    # 第二个参数是替换的字符，第三个参数是要被查找替换的原始字符串，第四个参数是模式匹配后替换的最大次数默认为0替换所有匹配
+    # re模块中都有一个flags参数，用来指定匹配时是否忽略大小写、多行匹配等等。
+    purified = re.sub("[操肏艹]|fuck|shit|傻[比屄逼叉缺吊屌]|煞笔|fuck you", '*', sentence, flags=re.I)
+    print(purified)
+
 
 if __name__ == '__main__':
     check_username_qq()
     find_all_number()
+    replace_main()
