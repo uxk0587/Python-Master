@@ -53,10 +53,10 @@ def calc(*args):
 calc(12, 12)
 
 
-# **kargs中的**表示关键字参数, 传入的关键字会在函数内部自动组装成一个字典**kargs，
-# kargs是**kargs字典的一个拷贝
-def person3(**kargs):
-    print(kargs)
+# **kwargs中的**表示关键字参数, 传入的关键字会在函数内部自动组装成一个字典**kwargs，
+# kwargs是**kargs字典的一个拷贝
+def person3(**kwargs):
+    print(kwargs)
 
 
 person3(name='Jack', age=22)
@@ -67,3 +67,27 @@ person3(**dict1)
 tuple1 = (1,2,3)
 # *将元组中的元素解包裹成参数传给函数
 calc(*tuple1)
+
+
+#装饰器函数 具体内容看Python进阶书
+from functools import wraps
+from time import time
+#输出函数执行时间的装饰器
+def record_time(func):
+
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time()
+        result = func(*args, **kwargs)
+        print(f'{func.__name__}: {time() - start}')
+        return result
+    return wrapper
+
+@record_time
+def func():
+    a = []
+    for i in range(10111000):
+        a.append(i)
+
+func()
+
