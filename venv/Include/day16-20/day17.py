@@ -91,3 +91,26 @@ def func():
 
 func()
 
+
+# 带参数的装饰器, 在函数中嵌套装饰器 源自《Python进阶一书》
+def logit(logfile='out.log'):
+    def logging_decorator(func):
+        @wraps(func)
+        def wrapped_function(*args, **kwargs):
+            start = time()
+            log_string = 'Time: ' + str(start)
+            log_string += ' ' + func.__name__ + " was called"
+            spended_time = time() - start
+            log_string += ', Time spended: ' + str(spended_time)
+            print(log_string)
+            with open(logfile, 'a') as opened_file:
+                opened_file.write(log_string + '\n')
+            return func(*args, **kwargs)
+        return wrapped_function
+    return logging_decorator
+
+@logit()
+def myfunc1(x):
+    return x + x
+
+print(myfunc1(2))
