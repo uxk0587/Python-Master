@@ -1,3 +1,21 @@
 myfunc1 was called
 myfunc1 was called
 Time: 1589886928.499284 myfunc1 was called, Time spended: 0.0
+Time: 1589949152.596078 myfunc1 was called, Time spended: 0.0
+Time: 1589949193.0109723 myfunc1 was called, Time spended: 0.0
+Time: 1589955558.7220876 myfunc1 was called, Time spended: 0.0
+Time: 1589955566.0416715 myfunc1 was called, Time spended: 0.0
+Time: 1589955602.9721513 myfunc1 was called, Time spended: 0.0
+Time: 1589955831.0935442 myfunc1 was called, Time spended: 0.0
+myfunc2 was calledTime: 1589955868.3189292 myfunc1 was called, Time spended: 0.0
+myfunc3 was calledTime: 1589956691.1983924 myfunc1 was called, Time spended: 0.0
+myfunc3 was calledmyfunc4 was calledTime: 1589956727.9439769 myfunc1 was called, Time spended: 0.0
+myfunc3 was called
+myfunc4 was called
+Time: 1589956807.413017 myfunc1 was called, Time spended: 0.0
+Time: 1589956837.787083 myfunc1 was called, Time spended: 0.0
+Time: 1589956837.78808 myfunc3 was called, Time spended: 0.0
+Time: 1589956837.78808 myfunc4 was called, Time spended: 0.0
+Time: 1589956932.548902 myfunc1 was called, Time spended: 0.0
+Time: 1589956932.5499005 myfunc3 was called, Time spended: 0.0
+Time: 1589956932.5508971 myfunc4 was called, Time spended: 0.0

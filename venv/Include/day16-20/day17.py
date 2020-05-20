@@ -114,3 +114,62 @@ def myfunc1(x):
     return x + x
 
 print(myfunc1(2))
+
+# 带参数的装饰器
+@logit(logfile='out1.log')
+def myfunc2(x):
+    return x + x
+
+print(myfunc2(2))
+
+# 装饰器类  这样比嵌套函数使用更加简洁
+class class_logit(object):
+    def __init__(self, logfile = 'out.log'):
+        self.logfile = logfile
+
+    def __call__(self, func):
+        @wraps(func)
+        def wrapped_function(*args, **kwargs):
+            start = time()
+            log_string = 'Time: ' + str(start)
+            log_string += ' ' + func.__name__ + " was called"
+            spended_time = time() - start
+            log_string += ', Time spended: ' + str(spended_time)
+            print(log_string)
+            with open(self.logfile, 'a') as opened_file:
+                opened_file.write(log_string + '\n')
+            self.notify()
+            return func(*args, **kwargs)
+        return wrapped_function
+
+    def notify(self):
+        pass
+
+@class_logit()
+def myfunc3(x):
+    return x + x
+
+print(myfunc3(2))
+
+# 创建class_logit的子类，通过继承实现别的功能
+
+class email_logit(class_logit):
+    """
+    实现在调用函数的时候，除了打印日志还发送email给管理员
+    """
+
+    def __init__(self, email='xxx@gmail.com', *args, **kwargs):
+        self.email = email
+        super().__init__(*args, **kwargs)
+
+    def notify(self):
+        print("Sending a email to Jack")
+        pass
+
+@email_logit()
+def myfunc4(x):
+    return x + x
+
+print(myfunc4(2))
+
+
