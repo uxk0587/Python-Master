@@ -174,6 +174,56 @@ def myfunc4(x):
 print(myfunc4(2))
 
 
+# 用装饰器来实现单例模式
+# 装饰类的装饰器
+def singleton(cls):
+
+    instances = {}
+
+    @wraps(cls)
+    def wrapper(*args, **kwargs):
+        if cls not in instances:
+            instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+    return wrapper
+
+@singleton
+class President:
+
+    def __init__(self, name):
+        self._name = name
+
+    @property
+    def name(self):
+        return self._name
+
+president1 = President('Jack')
+print(president1.name)
+president2 = President('Tom')
+# 返回的还是Jack， 单例模式中 单例类只能有一个实例， 单例类必须自己创建唯一的实例，单例类必须给所有其他对象提供这一实例。
+# 保证一个类仅有一个实例，并提供一个访问它的全局访问点。
+# 返回的还是Jack
+print(president2.name)
+
+from threading import RLock
+
+# 线程安全的单例装饰器 避免一个实例被构建了多次
+def ths_singleton(cls):
+    instances = {}
+    locker = RLock()
+
+    @wraps(cls)
+    def wrapper(*args, **kwargs):
+        # 在wrapper函数中，我们先做了一次不带锁的检查，然后再做带锁的检查，这样做比直接加锁检查性能要更好，
+        # 如果对象已经创建就没有必须再去加锁而是直接返回该对象就可以了。
+        if cls not in instances:
+            with locker: # 通过with方式来获取锁
+                if cls not in instances:
+                    instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+
+    return wrapper
+
 """面向对象进阶"""
 
 # 工资结算系统
@@ -244,3 +294,5 @@ def main():
 
 
 main()
+
+
