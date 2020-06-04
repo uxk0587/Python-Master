@@ -104,6 +104,7 @@ def logit(logfile='out.log'):
             spended_time = time() - start
             log_string += ', Time spended: ' + str(spended_time)
             print(log_string)
+            # 执行前写入日志
             with open(logfile, 'a') as opened_file:
                 opened_file.write(log_string + '\n')
             return func(*args, **kwargs)
@@ -223,76 +224,5 @@ def ths_singleton(cls):
         return instances[cls]
 
     return wrapper
-
-"""面向对象进阶"""
-
-# 工资结算系统
-
-
-from abc import ABCMeta, abstractmethod
-
-#实现抽象类 员工抽象类
-class Employee(metaclass=ABCMeta):
-
-    def __init__(self, name):
-        self.name = name
-
-    @abstractmethod
-    def get_salary(self):
-        # 结算工资（抽象方法）
-        pass
-
-# 部门经理
-class Manager(Employee):
-
-    def get_salary(self):
-        return 15000.0
-
-
-# 程序员
-class Programmer(Employee):
-
-    def __init__(self, name, working_hour=0):
-        super().__init__(name)
-        self.working_hour = working_hour
-
-    def get_salary(self):
-        return 200.0 * self.working_hour
-
-# 销售员
-class Salesman(Employee):
-    def __init__(self, name, sales=0.0):
-        self.sales = sales
-        super().__init__(name)
-
-    def get_salary(self):
-        return 1800.0 + self.sales * 0.05
-
-
-# 创建员工的工厂（工厂模式 - 通过工厂模式实现对象使用者和对象之间解耦合）
-class EmployeeFactory:
-
-    @staticmethod
-    def create(emp_type, *args, **kwargs):
-        all_emp_types = {'M': Manager, 'P': Programmer, 'S': Salesman}
-        cls = all_emp_types[emp_type.upper()]
-        return cls(*args, **kwargs) if cls else None
-
-
-def main():
-
-    emps = [
-        EmployeeFactory.create('M', 'Jack'),
-        EmployeeFactory.create('P', 'Pony', 120),
-        EmployeeFactory.create('P', 'Musk', 85),
-        EmployeeFactory.create('S', 'Jobs', 123000),
-    ]
-
-    for emp in emps:
-        # print(f'')中的：后表示格式化变量
-        print(f'{emp.name}: {emp.get_salary():.2f} Yuan')
-
-
-main()
 
 
