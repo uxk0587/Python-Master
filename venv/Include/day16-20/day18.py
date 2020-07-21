@@ -187,7 +187,10 @@ class SingletonMeta(type):
             # 创建实例前先加锁 类似装饰器类构建单例模式部分 day17
             with cls.__lock:
                 if cls.__instance is None:
-                    cls.__instance = super().__call__(*args, **kwargs)
+                    # cls.__instance = super().__call__(*args, **kwargs)
+                    # 个人理解：参考廖雪峰python教程 和 CSDN收藏部分内容
+                    cls.__instance = super(SingletonMeta, cls).__call__(*args, **kwargs)
+                    
         return cls.__instance
 
 class President(metaclass=SingletonMeta):
@@ -212,4 +215,20 @@ president1.say()
 president2 = President("Tom")
 president2.say()
 
+# 元类可以拦截类的创建，修改类，返回修改之后的类
+class ListMetaclass(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['add'] = lambda self, value: self.append(value)
+        attrs['test_name'] = 'Jack Lee\' code'
+        print(attrs)
+        # dict.items()将字典变成元组列表
+        print(attrs.items())
+        return type.__new__(cls, name, bases, attrs)
+
+class MyList(list, metaclass=ListMetaclass):
+    pass
+
+
+myList1 = MyList()
+print(myList1)
 
