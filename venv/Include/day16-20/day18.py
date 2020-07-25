@@ -3,7 +3,7 @@
 Written by: Jack Lee                                                   
 Time: 2020/5/25 21:02                                                  
 
-Function:   
+Function:   Python面向对象进阶，混入，元类编程
 
                                                            
 """
