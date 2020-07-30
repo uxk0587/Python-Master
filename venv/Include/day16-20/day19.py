@@ -65,3 +65,6 @@ next(gen)
 # send()方法可以发送数据，发送的数据会成为生成器函数中通过yield表达式获得的值。
 print(gen.send(10))
 print(gen.send(20))
+
+def func(options):
+    options = options
