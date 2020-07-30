@@ -63,7 +63,7 @@ class GenerateThumbnail(threading.Thread):
         img.thumbnail(self._image_size, Image.ANTIALIAS)
         img.save(outfile, self._format)
 
-def main():
+def main_1():
     start = time.time()
     threads = []
     if not os.path.exists(PREFIX):
@@ -92,5 +92,78 @@ def main():
 
     print(f'Total time cost: {end - start}')
 
+# if __name__ == '__main__':
+#     main()
+
+"""多个线程竞争资源的情况"""
+# 当多个线程竞争资源的时候如果缺乏必要的保护措施就会导致数据混乱
+# 临界资源就是被多个线程竞争的资源
+
+# 线程池执行器
+from concurrent.futures import ThreadPoolExecutor
+
+# 银行账户
+class Account(object):
+
+    def __init__(self):
+        self.balance = 0.0
+        self.lock = threading.RLock()
+
+    def deposit(self, money):
+        with self.lock:
+            new_balance = self.balance + money
+            # time.sleep()方法会推迟线程的运行
+            time.sleep(0.001)
+            self.balance = new_balance
+            print(self.balance)
+
+# 自定义线程类
+class AddMoneyThread(threading.Thread):
+
+    def __init__(self, account, money):
+        self.account = account
+        self.money = money
+        super().__init__()
+
+    def run(self):
+        self.account.deposit(self.money)
+
+def main_2():
+    account = Account()
+    # 线程池执行器， 创建线程池
+    # 池的概念主要目的是为了重用，让线程或者进程在生命周期内可以多次使用。它减少了创建线程和进程的开销，提高了程序性能
+    pool = ThreadPoolExecutor(max_workers=10)
+    futures = []
+    # threads = []
+    for _ in range(100):
+
+        # 创建线程第一种方式
+        # t = threading.Thread(target = account.deposit, args=(1, ))
+        # threads.append(t)
+        # t.start()
+
+        # 创建线程的第二种方式
+        # t = AddMoneyThread(account, 1)
+        # threads.append()
+        # t.start()
+
+        # 创建线程的第三种方式：调用线程池中的线程来执行特定的任务
+        # 任务通过executor.submit()提交executor的任务队列，返回一个future对象。
+        # 任务被调度到worker中执行。一个任务一旦执行，在执行完毕前，会一直占用该worker，
+        # 如果worker不够用，其他的任务会一直等待
+        future = pool.submit(account.deposit, 1)
+        futures.append(future)
+        # print(account.balance)
+    # 等待线程执行结束
+    # for t in threads:
+    #     t.join()
+
+    #关闭线程池
+    pool.shutdown()
+    for future in futures:
+        future.result()
+
+    print(account.balance)
+
 if __name__ == '__main__':
-    main()
+    main_2()
