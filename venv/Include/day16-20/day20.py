@@ -103,7 +103,7 @@ def main_1():
 from concurrent.futures import ThreadPoolExecutor
 
 # 银行账户
-class Account(object):
+class Account_1(object):
 
     def __init__(self):
         self.balance = 0.0
@@ -113,7 +113,7 @@ class Account(object):
         with self.lock:
             new_balance = self.balance + money
             # time.sleep()方法会推迟线程的运行
-            time.sleep(0.001)
+            time.sleep(0.01)
             self.balance = new_balance
             print(self.balance)
 
@@ -123,13 +123,15 @@ class AddMoneyThread(threading.Thread):
     def __init__(self, account, money):
         self.account = account
         self.money = money
+        # 自定义线程的初始方法中必须调用父类的初始化方法
         super().__init__()
 
     def run(self):
+        # 线程启动之后要执行的操作
         self.account.deposit(self.money)
 
 def main_2():
-    account = Account()
+    account = Account_1()
     # 线程池执行器， 创建线程池
     # 池的概念主要目的是为了重用，让线程或者进程在生命周期内可以多次使用。它减少了创建线程和进程的开销，提高了程序性能
     pool = ThreadPoolExecutor(max_workers=10)
@@ -165,5 +167,72 @@ def main_2():
 
     print(account.balance)
 
+# if __name__ == '__main__':
+#     main_2()
+
+
+"""修改上面的程序，启动5个线程向账户中存钱，5个线程从账户中取钱，取钱时如果余额不足就暂停线程进行等待。
+为了达到上述目标，需要对存钱取钱线程进行调度，在余额不足时取钱的线程暂停并释放锁，而存钱的线程将钱存入后要通知
+取钱的线程，使其从暂停状态被唤醒，可以使用threading模块的Condition来实现线程调度，该对象也是基于锁来创建的。
+"""
+
+from concurrent.futures import ThreadPoolExecutor
+from random import randint
+from time import sleep
+
+import threading
+
+
+class Account_2():
+    """银行账户"""
+
+    def __init__(self, balance=0):
+        self.balance = balance
+        lock = threading.Lock()
+        self.condition = threading.Condition(lock)
+
+    def withdraw(self, money):
+        """取钱"""
+        with self.condition:
+            while money > self.balance:
+                # 调用conditon.wait()方法让当前线程挂起， 等待被唤醒
+                self.condition.wait()
+            new_balance = self.balance - money
+            sleep(0.001)
+            self.balance = new_balance
+
+    def deposit(self, money):
+        """存钱"""
+        with self.condition:
+            new_balance = self.balance + money
+            sleep(0.001)
+            self.balance = new_balance
+            # 唤醒所有等待条件变量的线程
+            self.condition.notify_all()
+
+
+def add_money(account):
+    while True:
+        money = randint(5, 10)
+        account.deposit(money)
+        print(threading.current_thread().name, ':', money, '=====>', account.balance)
+        sleep(1)
+
+def sub_money(account):
+    while True:
+        money = randint(10, 30)
+        account.withdraw(money)
+        print(threading.current_thread().name, ':', money, '<=====', account.balance)
+        sleep(1)
+
+
+def main_3():
+    account = Account_2()
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        for _ in range(5):
+            pool.submit(add_money, account)
+            pool.submit(sub_money, account)
+
+
 if __name__ == '__main__':
-    main_2()
+    main_3()
