@@ -1,112 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86472f34-e2d1-47bb-86fc-8f173d71d86f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/Include/day15/computer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Include/day15/day15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Include/day15/new_computer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BdfFontFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BlpImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BmpImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BufrStubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ContainerIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/CurImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DcxImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DdsImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/EpsImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ExifTags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FitsStubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FliImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FontFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FpxImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FtexImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GbrImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GdImageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GifImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GimpGradientFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GimpPaletteFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GribStubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Hdf5StubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IcnsImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IcoImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageChops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageCms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageColor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageEnhance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFont.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageGrab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMorph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageOps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePalette.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageQt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageSequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageShow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageStat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTransform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageWin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImtImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IptcImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Jpeg2KImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegPresets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/McIdasImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MicImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MpegImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MpoImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MspImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PSDraw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PaletteFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PalmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcdImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcfFontFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcxImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfParser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PixarImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PngImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PpmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PsdImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PyAccess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SgiImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SpiderImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SunImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TarIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TgaImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffTags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WalImageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WebPImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WmfImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XVThumbImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XbmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XpmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_binary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imaging.cp36-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingcms.cp36-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingft.cp36-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingmath.cp36-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingmorph.cp36-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingtk.cp36-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_tkinter_finder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_webp.cp36-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/features.py" afterDir="false" />
+    <list default="true" id="86472f34-e2d1-47bb-86fc-8f173d71d86f" name="Default Changelist" comment="day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Include/day14/day14_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/day14/day14_2.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list id="ac67693b-1da8-4276-b4e4-78562f6482b4" name="day17: 装饰器函数" comment="" />
+    <list id="b49473f9-6a00-483f-a5d2-249d25482e4e" name="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;" comment="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,23 +59,29 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1VqOaDpm1qS4lWHFOB6X5KpqwgO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Include/day15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Include/day14" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -160,48 +90,15 @@
       <recent name="D:\PyCharmProject\Python-100-Days\venv\Include" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day14" />
       <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day15" />
       <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day11" />
       <recent name="D:\PyCharmProject\Python-100-Days\venv\Include" />
       <recent name="C:\Users\JackLee\Desktop" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.day15">
-    <configuration name="day12" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-100-Days" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day12/day12.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day14_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.day20">
+    <configuration name="day14" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,7 +111,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day14/day14_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day14/day14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day14_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day18" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,12 +128,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day16-20" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day14/day14_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day16-20/day18.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day15" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day19" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,12 +150,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day16-20" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day15/day15.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day16-20/day19.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +164,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-100-Days" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day16-20" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day16-20/day20.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day9(4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,7 +199,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day9/practice3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day9/day9(4).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day15" />
-        <item itemvalue="Python.day12" />
-        <item itemvalue="Python.practice3" />
-        <item itemvalue="Python.day14_2" />
-        <item itemvalue="Python.day14_1" />
+        <item itemvalue="Python.day20" />
+        <item itemvalue="Python.day19" />
+        <item itemvalue="Python.day18" />
+        <item itemvalue="Python.day9(4)" />
+        <item itemvalue="Python.day14" />
       </list>
     </recent_temporary>
   </component>
@@ -305,6 +224,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="86472f34-e2d1-47bb-86fc-8f173d71d86f" name="Default Changelist" comment="" />
+      <changelist id="ac67693b-1da8-4276-b4e4-78562f6482b4" name="day17: 装饰器函数" comment="" />
       <created>1577977219986</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -339,6 +259,38 @@
       <workItem from="1587905115325" duration="1392000" />
       <workItem from="1588048611555" duration="1562000" />
       <workItem from="1588334827624" duration="10792000" />
+      <workItem from="1589292598472" duration="249000" />
+      <workItem from="1589292959448" duration="2426000" />
+      <workItem from="1589856961079" duration="19558000" />
+      <workItem from="1590028224562" duration="5542000" />
+      <workItem from="1590202910725" duration="1950000" />
+      <workItem from="1590251438834" duration="8652000" />
+      <workItem from="1590565722138" duration="5917000" />
+      <workItem from="1591193131222" duration="1331000" />
+      <workItem from="1591234083806" duration="5500000" />
+      <workItem from="1591256930948" duration="2598000" />
+      <workItem from="1591407306943" duration="2428000" />
+      <workItem from="1591587908503" duration="1718000" />
+      <workItem from="1591597470469" duration="768000" />
+      <workItem from="1591598308624" duration="54000" />
+      <workItem from="1591598490082" duration="24000" />
+      <workItem from="1591598583214" duration="536000" />
+      <workItem from="1591599131813" duration="206000" />
+      <workItem from="1591599351805" duration="1247000" />
+      <workItem from="1591600634711" duration="81000" />
+      <workItem from="1591600733863" duration="1350000" />
+      <workItem from="1591620964188" duration="12000" />
+      <workItem from="1591620989946" duration="35000" />
+      <workItem from="1591664299484" duration="8535000" />
+      <workItem from="1591796063980" duration="261000" />
+      <workItem from="1594972142506" duration="7019000" />
+      <workItem from="1595304293969" duration="8525000" />
+      <workItem from="1595392802164" duration="30986000" />
+      <workItem from="1596895085372" duration="1581000" />
+      <workItem from="1596970668628" duration="2964000" />
+      <workItem from="1597136725463" duration="7386000" />
+      <workItem from="1597722074829" duration="12799000" />
+      <workItem from="1597894342684" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="Python进程与线程">
       <created>1587300845825</created>
@@ -396,11 +348,102 @@
       <option name="project" value="LOCAL" />
       <updated>1587905894003</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day17: 装饰器函数">
+      <created>1589293136871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589293136871</updated>
+    </task>
+    <task id="LOCAL-00010" summary="day18: 装饰器函数:带参数的装饰器函数，在函数中嵌套装饰器">
+      <created>1589887040331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589887040331</updated>
+    </task>
+    <task id="LOCAL-00011" summary="day17: 装饰器函数:带参数的装饰器函数，在函数中嵌套装饰器，装饰器类">
+      <created>1589958093040</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589958093040</updated>
+    </task>
+    <task id="LOCAL-00012" summary="day18： 面向对象进阶">
+      <created>1589974040053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589974040053</updated>
+    </task>
+    <task id="LOCAL-00013" summary="day17： 用装饰器实现单例模式 线程安全的单例模式">
+      <created>1590034011288</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590034011288</updated>
+    </task>
+    <task id="LOCAL-00014" summary="day18： 多重继承 MixIn混入">
+      <created>1591240734094</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591240734094</updated>
+    </task>
+    <task id="LOCAL-00015" summary="day18： 元类实现单例模式">
+      <created>1594979678133</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594979678133</updated>
+    </task>
+    <task id="LOCAL-00016" summary="day18： 元类和元编程，利用元类实现单例模式">
+      <created>1595331879485</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595331879485</updated>
+    </task>
+    <task id="LOCAL-00017" summary="day19： Python生成器和迭代器">
+      <created>1595667697658</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595667697658</updated>
+    </task>
+    <task id="LOCAL-00018" summary="day20: Python多线程编程">
+      <created>1596082748623</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1596082748623</updated>
+    </task>
+    <task id="LOCAL-00019" summary="day20: Python多线程编程——多个线程竞争资源的情况">
+      <created>1596106086231</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596106086231</updated>
+    </task>
+    <task id="LOCAL-00020" summary="day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度">
+      <created>1597808831695</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1597808831695</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62">
+      <created>1597809031430</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1597809031430</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -408,12 +451,23 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Python进程与线程" />
@@ -422,7 +476,66 @@
     <MESSAGE value="网络编程入门与网络应用开发： TCP套接字 更新多线程通信处理方式" />
     <MESSAGE value="面向对象进阶： Practice3" />
     <MESSAGE value="正则表达式:更新practice 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="正则表达式:更新practice 3" />
+    <MESSAGE value="day17: 装饰器函数" />
+    <MESSAGE value="day18: 装饰器函数:带参数的装饰器函数，在函数中嵌套装饰器" />
+    <MESSAGE value="day17: 装饰器函数:带参数的装饰器函数，在函数中嵌套装饰器，装饰器类" />
+    <MESSAGE value="day18： 面向对象进阶" />
+    <MESSAGE value="day17： 用装饰器实现单例模式 线程安全的单例模式" />
+    <MESSAGE value="day18： 多重继承 MixIn混入" />
+    <MESSAGE value="day18： 元类实现单例模式" />
+    <MESSAGE value="day18： 元类和元编程，利用元类实现单例模式" />
+    <MESSAGE value="day19： Python生成器和迭代器" />
+    <MESSAGE value="day20: Python多线程编程" />
+    <MESSAGE value="day20: Python多线程编程——多个线程竞争资源的情况" />
+    <MESSAGE value="day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度" />
+    <MESSAGE value="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1597809414616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597809414616" />
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1597809390645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1597809390645" />
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1597827514715">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597827514715" />
+    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1597827514712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597827514712" />
+    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1597827514711">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597827514711" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1597827514714">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597827514714" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1597805671208">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597805671208" />
+    <state x="417" y="322" key="VCS.ChangelistChooser" timestamp="1597809010845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="417" y="322" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1597809010845" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1597809418650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597809418650" />
+    <state x="340" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595667264387">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1595667264387" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596102486893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596102486893" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -436,29 +549,34 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_100_Days$day8.coverage" NAME="day8 Coverage Results" MODIFIED="1585646628865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day5.coverage" NAME="day5 Coverage Results" MODIFIED="1583511756821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day14_1.coverage" NAME="day14_1 Coverage Results" MODIFIED="1587443455716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1586697435423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day14.coverage" NAME="day14 Coverage Results" MODIFIED="1587364430105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1578070048486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day10_3_.coverage" NAME="day10(3) Coverage Results" MODIFIED="1586577173227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day10.coverage" NAME="day10 Coverage Results" MODIFIED="1586536290907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1587825890018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day9" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day7.coverage" NAME="day7 Coverage Results" MODIFIED="1586782429260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day11_1.coverage" NAME="day11_1 Coverage Results" MODIFIED="1586753193415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day3.coverage" NAME="day3 Coverage Results" MODIFIED="1580479021567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day10_4_.coverage" NAME="day10(4) Coverage Results" MODIFIED="1586577624654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day11.coverage" NAME="day11 Coverage Results" MODIFIED="1586752976347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day14_2.coverage" NAME="day14_2 Coverage Results" MODIFIED="1587736239278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$s_p500_compoud_interest.coverage" NAME="s&amp;p500_compoud_interest Coverage Results" MODIFIED="1587440205177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day11_2.coverage" NAME="day11_2 Coverage Results" MODIFIED="1587357151050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day15.coverage" NAME="day15 Coverage Results" MODIFIED="1588416608583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day15" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1586700157003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day6.coverage" NAME="day6 Coverage Results" MODIFIED="1585654266448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day10_2_.coverage" NAME="day10(2) Coverage Results" MODIFIED="1586535345757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day12.coverage" NAME="day12 Coverage Results" MODIFIED="1587905808030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day12" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day4.coverage" NAME="day4 Coverage Results" MODIFIED="1582719524574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day20.coverage" NAME="day20 Coverage Results" MODIFIED="1597808745190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day14.coverage" NAME="day14 Coverage Results" MODIFIED="1591193580360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1586697435423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day10_2_.coverage" NAME="day10(2) Coverage Results" MODIFIED="1586535345757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day17.coverage" NAME="day17 Coverage Results" MODIFIED="1590029800153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$s_p500_compoud_interest.coverage" NAME="s&amp;p500_compoud_interest Coverage Results" MODIFIED="1587440205177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day11_1.coverage" NAME="day11_1 Coverage Results" MODIFIED="1586753193415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1586700157003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day10_3_.coverage" NAME="day10(3) Coverage Results" MODIFIED="1586577173227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day11.coverage" NAME="day11 Coverage Results" MODIFIED="1586752976347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day19.coverage" NAME="day19 Coverage Results" MODIFIED="1596079719842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day14_1.coverage" NAME="day14_1 Coverage Results" MODIFIED="1587443455716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1587825890018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day9" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day10.coverage" NAME="day10 Coverage Results" MODIFIED="1586536290907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day11_2.coverage" NAME="day11_2 Coverage Results" MODIFIED="1587357151050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day14_2.coverage" NAME="day14_2 Coverage Results" MODIFIED="1587736239278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day3.coverage" NAME="day3 Coverage Results" MODIFIED="1580479021567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day6.coverage" NAME="day6 Coverage Results" MODIFIED="1585654266448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day10_1_.coverage" NAME="day10(1) Coverage Results" MODIFIED="1586492781184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day10_4_.coverage" NAME="day10(4) Coverage Results" MODIFIED="1586577624654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day18.coverage" NAME="day18 Coverage Results" MODIFIED="1595664482601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1578070048486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day12.coverage" NAME="day12 Coverage Results" MODIFIED="1587905808030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day12" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day8.coverage" NAME="day8 Coverage Results" MODIFIED="1585646628865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day9_4_.coverage" NAME="day9(4) Coverage Results" MODIFIED="1591665653660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day9" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day5.coverage" NAME="day5 Coverage Results" MODIFIED="1583511756821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day15.coverage" NAME="day15 Coverage Results" MODIFIED="1589857475398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day15" />
   </component>
 </project>

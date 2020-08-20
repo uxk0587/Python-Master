@@ -58,7 +58,7 @@ def server_main():
 def client_main():
     client = socket()
     client.connect(('192.168.88.144', 65533))
-    # 定义一个保存bytes类型字节符的对象对象  收到字符串转换为二进制
+    # 定义一个保存bytes类型字节符的对象,用于接收字节符数据
     in_data = bytes()
     # 由于不知道服务器发送数据有多大，每次接收1024字节
     data = client.recv(1024)
@@ -66,13 +66,13 @@ def client_main():
         # 将收到的数据拼接起来
         in_data += data
         data = client.recv(1024)
-    # 将收到的二进制数据（bytes类型）解码成str类型字符串（unicode编码），在通过loads将str类型转为python字典对象
+    # 将收到的字节符数据（bytes类型）解码成str类型字符串（unicode编码），再通过loads将str类型转为python字典对象
     my_dict = loads(in_data.decode('utf-8'))
     filename = my_dict['filename']
     # 获取Python字典对象中的filedata的文本值（str类型），将其转换为字节符（bytes类型）
     filedata = my_dict['filedata'].encode('utf-8')
     with open(filename, 'wb') as f:
-        # 将bytes类型解码转换为二进制数据写入文件
+        # 将bytes类型解码转换为二进制数据写入文件，用base64解码成二进制数据
         f.write(b64decode(filedata))
     print('Image saved')
 
