@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86472f34-e2d1-47bb-86fc-8f173d71d86f" name="Default Changelist" comment="day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度">
+    <list default="true" id="86472f34-e2d1-47bb-86fc-8f173d71d86f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/day14/day14_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/day14/day14_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Include/day16-20/day20_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/day16-20/day20_1.py" afterDir="false" />
     </list>
     <list id="ac67693b-1da8-4276-b4e4-78562f6482b4" name="day17: 装饰器函数" comment="" />
     <list id="b49473f9-6a00-483f-a5d2-249d25482e4e" name="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;" comment="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62" />
@@ -97,29 +97,7 @@
       <recent name="C:\Users\JackLee\Desktop" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day20">
-    <configuration name="day14" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-100-Days" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day14" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day14/day14.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.day20_1">
     <configuration name="day18" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,6 +164,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day20_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-100-Days" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day16-20" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day16-20/day20_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="day9(4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day20_1" />
         <item itemvalue="Python.day20" />
         <item itemvalue="Python.day19" />
         <item itemvalue="Python.day18" />
         <item itemvalue="Python.day9(4)" />
-        <item itemvalue="Python.day14" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +290,8 @@
       <workItem from="1596970668628" duration="2964000" />
       <workItem from="1597136725463" duration="7386000" />
       <workItem from="1597722074829" duration="12799000" />
-      <workItem from="1597894342684" duration="965000" />
+      <workItem from="1597894342684" duration="5521000" />
+      <workItem from="1597921570908" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="Python进程与线程">
       <created>1587300845825</created>
@@ -439,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597809031430</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更新了day14_2的内容">
+      <created>1597895353202</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1597895353202</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,33 +497,34 @@
     <MESSAGE value="day20: Python多线程编程——多个线程竞争资源的情况" />
     <MESSAGE value="day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度" />
     <MESSAGE value="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62" />
+    <MESSAGE value="更新了day14_2的内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了day14_2的内容" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1597809414616">
+    <state x="348" y="0" key="CommitChangelistDialog2" timestamp="1597895351036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597809414616" />
+    <state x="348" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597895351036" />
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1597809390645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1597809390645" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1597827514715">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1597924492260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597827514715" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1597827514712">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597924492260" />
+    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1597924492260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597827514712" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1597827514711">
+    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597924492260" />
+    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1597924492260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597827514711" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1597827514714">
+    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597924492260" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1597924492260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597827514714" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597924492260" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1597805671208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -524,10 +533,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="417" y="322" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1597809010845" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1597809418650">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1597895393726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597809418650" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597895393726" />
     <state x="340" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595667264387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -551,7 +560,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_100_Days$day7.coverage" NAME="day7 Coverage Results" MODIFIED="1586782429260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day4.coverage" NAME="day4 Coverage Results" MODIFIED="1582719524574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day20.coverage" NAME="day20 Coverage Results" MODIFIED="1597808745190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day20.coverage" NAME="day20 Coverage Results" MODIFIED="1597920429452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day14.coverage" NAME="day14 Coverage Results" MODIFIED="1591193580360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
     <SUITE FILE_PATH="coverage/Python_100_Days$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1586697435423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day10_2_.coverage" NAME="day10(2) Coverage Results" MODIFIED="1586535345757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
@@ -562,6 +571,7 @@
     <SUITE FILE_PATH="coverage/Python_100_Days$day10_3_.coverage" NAME="day10(3) Coverage Results" MODIFIED="1586577173227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day11.coverage" NAME="day11 Coverage Results" MODIFIED="1586752976347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day19.coverage" NAME="day19 Coverage Results" MODIFIED="1596079719842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day20_1.coverage" NAME="day20_1 Coverage Results" MODIFIED="1597924492251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day14_1.coverage" NAME="day14_1 Coverage Results" MODIFIED="1587443455716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
     <SUITE FILE_PATH="coverage/Python_100_Days$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1587825890018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day9" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day10.coverage" NAME="day10 Coverage Results" MODIFIED="1586536290907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
