@@ -5,6 +5,7 @@ time: 2020/4/20 12:35
 
 
 requests库的使用：通过requests实现一个访问数据接口从中下载图片保存到本地
+requests是一个基于HTTP协议来使用网络的第三方库,requests库基于urllib，它比urllib更方便
 """
 
 
@@ -31,10 +32,10 @@ class DownloadHandler(Thread):
 
 def main():
     start_time = time()
-    # requests.get()构造一个想服务器请求资源的url对象
+    # requests.get()构造一个向服务器请求资源的url对象
     # 返回值是一个包含服务器资源的Response对象
     resp = requests.get('http://api.tianapi.com/meinv/index?key=024759fe3b09b55caf5d462e8002d716&num=10')
-    # print(resp)
+    print(resp.text)
     # print(type(resp)) # 返回Response对象
     # Requests中内置一个JSON解码器，可处理JSON数据返回成字典
     data_model = resp.json()
