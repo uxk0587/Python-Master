@@ -72,7 +72,7 @@ def main():
     # future对象实际上也是个coroutine，添加回调函数,当future运行结束后会调用这个函数
     # future.result()返回future结果
     future.add_done_callback(lambda x: print(x.result()))
-    # 执行future, loop对象的run_until_complete方法可以等待通过future对象获得协程执行结果
+    # 执行coroutine, loop对象的run_until_complete方法可以等待通过future对象获得协程执行结果
     loop.run_until_complete(future)
     loop.close()
 
