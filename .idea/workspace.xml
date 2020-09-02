@@ -26,9 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86472f34-e2d1-47bb-86fc-8f173d71d86f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/Include/day16-20/day20_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/auth8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/bath1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/bath2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/bath3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/bath4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/bath5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/bath6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/bath/bath7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Include/day15/day15_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/day16-20/day20_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/day16-20/day20_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Include/day15/new_computer1.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/day15/new_computer1.png" afterDir="false" />
     </list>
     <list id="ac67693b-1da8-4276-b4e4-78562f6482b4" name="day17: 装饰器函数" comment="" />
     <list id="b49473f9-6a00-483f-a5d2-249d25482e4e" name="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;" comment="Revert &quot;day20: Python多线程编程——多个线程竞争资源的情况,使用threading模块的Condition来实现线程调度&quot;&#10;&#10;This reverts commit 536bee62" />
@@ -74,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Include/day14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NodejsProject/Dashkit" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,20 +93,42 @@
     <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day14" />
-      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day15" />
-      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day11" />
-      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include" />
-      <recent name="C:\Users\JackLee\Desktop" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day15" />
       <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day10" />
       <recent name="D:\PyCharmProject\Python-100-Days\venv\Include" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day15" />
+      <recent name="C:\Users\JackLee\Desktop" />
+      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day14" />
+      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include\day11" />
+      <recent name="D:\PyCharmProject\Python-100-Days\venv\Include" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.day20_3">
+  <component name="RunManager" selected="Python.day15_1">
+    <configuration name="auto2code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-100-Days" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/auto2code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="day14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day15_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-100-Days" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,34 +159,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day16-20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day16-20/day20.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day20_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-100-Days" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include/day16-20" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day16-20/day20_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/day15/day15_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day15_1" />
+        <item itemvalue="Python.auto2code" />
         <item itemvalue="Python.day20_3" />
         <item itemvalue="Python.day14" />
         <item itemvalue="Python.day20_2" />
-        <item itemvalue="Python.day20_1" />
-        <item itemvalue="Python.day20" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +302,11 @@
       <workItem from="1597894342684" duration="5521000" />
       <workItem from="1597921570908" duration="3608000" />
       <workItem from="1597976017270" duration="19493000" />
-      <workItem from="1598415444753" duration="13726000" />
+      <workItem from="1598415444753" duration="14539000" />
+      <workItem from="1598758478430" duration="303000" />
+      <workItem from="1598760046688" duration="4389000" />
+      <workItem from="1598860813102" duration="118000" />
+      <workItem from="1598951454915" duration="21311000" />
     </task>
     <task id="LOCAL-00001" summary="Python进程与线程">
       <created>1587300845825</created>
@@ -471,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598273363362</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="更新Python进阶day20: 异步处理——aiohttp的使用">
+      <created>1598530108074</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1598530108074</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,33 +544,42 @@
     <MESSAGE value="更新Python进阶day20_1: Python多进程编程进阶" />
     <MESSAGE value="更新Python进阶day20_2: Python异步IO编程进阶" />
     <MESSAGE value="更新Python进阶day14: requests库的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新Python进阶day14: requests库的使用" />
+    <MESSAGE value="更新Python进阶day20: 异步处理——aiohttp的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新Python进阶day20: 异步处理——aiohttp的使用" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="226" y="0" key="CommitChangelistDialog2" timestamp="1598273361686">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598968940198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="226" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598273361686" />
-    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1598273344964">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598968940198" />
+    <state x="226" y="0" key="CommitChangelistDialog2" timestamp="1598530106310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598273344964" />
-    <state width="1493" height="281" key="GridCell.Tab.0.bottom" timestamp="1598529997776">
+    <state x="226" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598530106310" />
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1598530049969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598529997776" />
-    <state width="1493" height="281" key="GridCell.Tab.0.center" timestamp="1598529997775">
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598530049969" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599021766172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598529997775" />
-    <state width="1493" height="281" key="GridCell.Tab.0.left" timestamp="1598529997775">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599021766172" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1598971269036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598529997775" />
-    <state width="1493" height="281" key="GridCell.Tab.0.right" timestamp="1598529997775">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598971269036" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1598971269036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598529997775" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598971269036" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1598971269036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598971269036" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1598971269036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598971269036" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1597805671208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -560,10 +588,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="417" y="322" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1597809010845" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1598530005093">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1598530118043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598530005093" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598530118043" />
     <state x="340" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598233230476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -586,7 +614,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_100_Days$day7.coverage" NAME="day7 Coverage Results" MODIFIED="1586782429260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$day20_3.coverage" NAME="day20_3 Coverage Results" MODIFIED="1598529786237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day20_3.coverage" NAME="day20_3 Coverage Results" MODIFIED="1598951527478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day4.coverage" NAME="day4 Coverage Results" MODIFIED="1582719524574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day20.coverage" NAME="day20 Coverage Results" MODIFIED="1597920429452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day14.coverage" NAME="day14 Coverage Results" MODIFIED="1598273160610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day14" />
@@ -595,8 +623,10 @@
     <SUITE FILE_PATH="coverage/Python_100_Days$day17.coverage" NAME="day17 Coverage Results" MODIFIED="1590029800153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$s_p500_compoud_interest.coverage" NAME="s&amp;p500_compoud_interest Coverage Results" MODIFIED="1587440205177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day11_1.coverage" NAME="day11_1 Coverage Results" MODIFIED="1586753193415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$day15_1.coverage" NAME="day15_1 Coverage Results" MODIFIED="1598971269026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day15" />
     <SUITE FILE_PATH="coverage/Python_100_Days$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1586700157003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day10_3_.coverage" NAME="day10(3) Coverage Results" MODIFIED="1586577173227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$auto2code.coverage" NAME="auto2code Coverage Results" MODIFIED="1598968994062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day11.coverage" NAME="day11 Coverage Results" MODIFIED="1586752976347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day11" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day19.coverage" NAME="day19 Coverage Results" MODIFIED="1596079719842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day20_1.coverage" NAME="day20_1 Coverage Results" MODIFIED="1598235387617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
