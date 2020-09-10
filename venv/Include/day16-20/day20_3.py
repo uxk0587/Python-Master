@@ -45,7 +45,7 @@ async def show_title(url):
         # 通过匹配对象.group()方法来得到整个该匹配对象中匹配的字符串
         print(PATTERN.search(html).group('title'))
 
-def main():
+def main_1():
     urls = ('https://www.python.org/',
             'https://git-scm.com/',
             'https://www.jd.com/',
@@ -60,8 +60,39 @@ def main():
     loop.run_until_complete(asyncio.wait(cos))
     loop.close()
 
+# 例子2：asyncio使用在服务器端的例子
+from aiohttp import web
+
+
+async def index(request):
+    await asyncio.sleep(0.5)
+    return web.Response(body=b"<h1>Index</h1>")
+
+async def hello(request):
+    await asyncio.sleep(0.5)
+    text = '<h1>hello, %s!</h1>' % request.match_info['name']
+    # str.encode('utf-8')转变为字节符（Bytes类型字符串）
+    return web.Response(body=text.encode('utf-8'))
+
+async def init(loop):
+    # 注意aiohttp的初始化函数init()也是一个coroutine，loop.create_server()则利用asyncio创建TCP服务。
+    app = web.Application(loop=loop)
+    app.router.add_route('GET', '/', index)
+    app.router.add_route('GET', '/hello/{name}', hello)
+    srv = await loop.create_server(app.make_handler(), '127.0.0.1', 8000)
+    print("Server started at http://127.0.0.1:8000...")
+    return srv
+
+def main_2():
+    # main_2未运行，之后深入学python服务器端开发再深入学习
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(init(loop))
+    loop.run_forever()
+
+
+
 if __name__ == '__main__':
-    main()
+    main_1()
 
 
 
