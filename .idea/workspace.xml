@@ -304,7 +304,7 @@
       <workItem from="1599301571220" duration="77000" />
       <workItem from="1599623525375" duration="11727000" />
       <workItem from="1599787078863" duration="290000" />
-      <workItem from="1599879383251" duration="4584000" />
+      <workItem from="1599879383251" duration="8340000" />
     </task>
     <task id="LOCAL-00001" summary="Python进程与线程">
       <created>1587300845825</created>
@@ -502,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599731453501</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="更新添加钉钉自动打卡测试代码auto2ding.py">
+      <created>1599883990784</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599883990785</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +540,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="网络编程入门与网络应用开发" />
     <MESSAGE value="网络编程入门与网络应用开发：TCP套接字，单线程无异步I/O处理方式" />
     <MESSAGE value="网络编程入门与网络应用开发： TCP套接字 更新多线程通信处理方式" />
     <MESSAGE value="面向对象进阶： Practice3" />
@@ -558,17 +564,18 @@
     <MESSAGE value="更新Python进阶day20: 异步处理——aiohttp的使用" />
     <MESSAGE value="更新Python进阶day15_1: 添加图片文字生成应用" />
     <MESSAGE value="更新Python进阶day20_3: 添加asyncio使用在服务器端的例子；&#10;添加钉钉自动打卡测试代码auto2ding.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新Python进阶day20_3: 添加asyncio使用在服务器端的例子；&#10;添加钉钉自动打卡测试代码auto2ding.py" />
+    <MESSAGE value="更新添加钉钉自动打卡测试代码auto2ding.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新添加钉钉自动打卡测试代码auto2ding.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598968940198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598968940198" />
-    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1599731451190">
+    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1599883988655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599731451190" />
+    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599883988655" />
     <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1599731260593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -577,22 +584,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599301625009" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1599883962838">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1599993626109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599883962838" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1599883962838">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599993626109" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1599993626109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599883962838" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1599883962838">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599993626109" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1599993626109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599883962838" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1599883962838">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599993626109" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1599993626109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599883962838" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599993626109" />
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1599993615130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599993615130" />
+    <state width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1599993615130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599993615130" />
+    <state width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1599993615130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599993615130" />
+    <state width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1599993615130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599993615130" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1599659672082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -601,10 +624,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="417" y="322" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1597809010845" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599731592125">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599993695022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599731592125" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599993695022" />
     <state x="340" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598233230476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -616,6 +639,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Include/day16-20/auto2ding.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Include/day16-20/auto2ding.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -654,7 +689,7 @@
     <SUITE FILE_PATH="coverage/Python_100_Days$day10_4_.coverage" NAME="day10(4) Coverage Results" MODIFIED="1586577624654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day10" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day18.coverage" NAME="day18 Coverage Results" MODIFIED="1595664482601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1578070048486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/Python_100_Days$auto2ding__1_.coverage" NAME="auto2ding (1) Coverage Results" MODIFIED="1599883962828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
+    <SUITE FILE_PATH="coverage/Python_100_Days$auto2ding__1_.coverage" NAME="auto2ding (1) Coverage Results" MODIFIED="1599993626102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day20_2.coverage" NAME="day20_2 Coverage Results" MODIFIED="1599208340793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day16-20" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day12.coverage" NAME="day12 Coverage Results" MODIFIED="1587905808030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include/day12" />
     <SUITE FILE_PATH="coverage/Python_100_Days$day8.coverage" NAME="day8 Coverage Results" MODIFIED="1585646628865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />

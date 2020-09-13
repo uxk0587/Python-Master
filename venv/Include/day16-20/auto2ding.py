@@ -31,17 +31,20 @@ def auto2ding():
     time.sleep(10)
     os.system('adb shell input swipe 536 1300 536 374')
     # 获取定位
-    os.system('adb shell input tap 1025 1252')
+    os.system('adb shell input tap 1000 620')
     # 下滑至最底部
-    for i in range(5):
+    for i in range(4):
         os.system('adb shell input swipe 536 1300 536 274')
     # 提交
-    os.system('adb shell input tap 620 1580')
+    os.system('adb shell input tap 545 1773')
+    time.sleep(3)
     # print(os.system('adb shell input tap 430 1780'))
     # 返回
-    os.system('adb shell input tap 80 148')
+
     for i in range(2):
-        os.system('adb shell input keyevent 3')
+        os.system('adb shell input tap 80 130')
+
+    os.system('adb shell input keyevent 3')
     # time.sleep(3)
     # # 点击工作通知 置顶
     # print(os.system('adb shell input tap 535 888'))
@@ -56,13 +59,13 @@ def get_second(hour, min=0, second=0):
 
 
 def main():
-    sleep_second = get_second(6)
-    while True:
-        time.sleep(1)
-        sleep_second -= 1
-        print(f'{sleep_second}s later will auto to ding...')
-        if sleep_second == 0:
-            break
+    # sleep_second = get_second(6)
+    # while True:
+    #     time.sleep(1)
+    #     sleep_second -= 1
+    #     print(f'{sleep_second}s later will auto to ding...')
+    #     if sleep_second == 0:
+    #         break
     auto2ding()
 
     # time.sleep(sleep_second)
